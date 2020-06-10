@@ -2,7 +2,7 @@
 
 ## Goal
 
-A goal of this assignment is to build a simple online image editing tool with basic functionalities.
+The goal of this assignment is to build a simple online image editing tool with basic functionalities.
 
 ## Description
 
@@ -20,16 +20,16 @@ Candidate needs to build a very simple image editing tool using canvas that let 
 
 ## Bonus Features
 
-- Cropping Image
+- Cropping the image
 
-- Support Adding A text box which can be rotated, scaled
+- Support adding a text box which can be rotated, scaled
 
-- Any other image editing feature you might want to show off.
+- Any other image editing feature you might want to show
 
 
 ## Deliverables
 
-This is a fairly challenging task, so we are not expecting a full fledged solution. Rather our expectations is a working solution that can execute above mentioned features. We would love if you can document your assumptions, the features that it supports and some thoughts on what are the major challenges to develop a full fledge solution and how you think you will approach it.
+This is a fairly challenging task, so we are not expecting a full fledged solution. Rather our expectations are a working solution that can execute the above mentioned features. We would love if you can document your assumptions, the features that it supports and some thoughts on what are the major challenges to develop a full fledge solution and how you think you will approach it.
 
 - A typescript project that runs the app on localhost. The requirement for this task is to implement the central canvas / editing area using the canvas api.
 

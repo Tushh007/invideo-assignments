@@ -12,13 +12,14 @@ Candidate needs to build a very simple image editing tool using canvas that let 
 
 - A panel that loads thumbnails from [Picsum](https://picsum.photos/v2/list) with pagination on scrolling.
 
-- A blank canvas. Allow two sizes of canvas (16:9 as well as 9:16) and let user select any one of them.
-
-- Let user drag one or more image templates from the panel to the canvas.
+- A blank canvas (9:16)
 
 - A feature that lets you fit an image with different aspect ratio than the canvas by blurring the sides. Check out the [example](https://github.com/invideoio/invideo-assignments/blob/master/frontend/example.mp4) to get better idea.
 
 ## Bonus Features
+- Let user drag one or more image templates from the panel to the canvas.
+
+- Switch aspect ratio of canvas to 16:9
 
 - Cropping the image
 

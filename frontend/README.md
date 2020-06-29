@@ -6,7 +6,7 @@ The goal of this assignment is to build a simple online image editing tool with 
 
 ## Description
 
-Candidate needs to build a very simple image editing tool using canvas that let user add one / more image templates to the canvas, modify it and the save the generated design. For inspiration user can check some of the existing online graphics design tools like [Canva](https://canva.com).
+Candidate needs to build a very simple image editing tool using canvas that let user add multiple images to the canvas, move it around and the save the generated design. For inspiration user can check some of the existing online graphics design tools like [Canva](https://canva.com).
 
 ## Features
 
@@ -14,10 +14,13 @@ Candidate needs to build a very simple image editing tool using canvas that let 
 
 - A blank canvas (9:16)
 
-- A feature that lets you fit an image with different aspect ratio than the canvas by blurring the sides. Check out the [example](https://github.com/invideoio/invideo-assignments/blob/master/frontend/example.mp4) to get better idea.
+- Drag and drop images from the left panel to the canvas
+
+- If the canvas is blank, then image should be added as a background of the entire canvas. In case image has a different aspect ration than the canvas, then fit the image inside the canvas by blurring the sides. Check out the [example](https://github.com/invideoio/invideo-assignments/blob/master/frontend/example.mp4) to get better idea.
+
+- If there is already a background image set, then new image should be added on top of the canvas, and should be added as per its aspect ratio
 
 ## Bonus Features
-- Let user drag one or more image templates from the panel to the canvas.
 
 - Switch aspect ratio of canvas to 16:9
 

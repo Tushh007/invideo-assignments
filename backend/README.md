@@ -73,14 +73,13 @@ As seen above, an audio element have two different type of volumes defined. `Hig
 
 + Unlike, audio element, an audio fragment has only one volume - aka volume at which that particular fragment must be played. What i mean by this is that an audio element is divided into multiple audio fragments depending upon whether its overlapping with other elements or not. Lets take an example of a video with three audio elements
 
-
+	
 	+ vo with start time as 5 and end time as 20
-
+	
 	+ bg_music with start time as 10 and end time as 40
 
 	+ video_music with start time as 15 and end time as 25
-
-
+	
 We will get following audio fragments for this video between 0 - 30 seconds
 
 	+ vo with start time as 5, end time as 10, volume as High Volume
@@ -93,9 +92,11 @@ We will get following audio fragments for this video between 0 - 30 seconds
 
 	+ video_music with start time as 15, end time as 25, volume as Low
 
+
 Example response for the example video json
 
-[
+
+	[
     {
         id: "123",
         url: "",
@@ -148,7 +149,7 @@ Example response for the example video json
             end_time: 25
         }
     }
-]
+    ]
 
 
 
@@ -164,7 +165,7 @@ Example response for the example video json
 
 ## Instructions
 
-- We have included an example video json here, along with its video fragments for your reference
+- We have included an example video json, along with its video fragments for your reference
 
 - The most important part of this assignment is how you design your abstractions and REST API.
 

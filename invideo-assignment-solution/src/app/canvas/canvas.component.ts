@@ -31,20 +31,12 @@ export class CanvasComponent implements OnInit {
   indicators;
   _canvas;
   _canvasContext: CanvasRenderingContext2D;
-  _canvasMouseDown = false;
-  _canvasImageCaptured = false;
-  _canvasEdited = false;
   _canvasZoom = 1;
-  _canvasColor = '#00FF00';
   _canvasMaxZoom = 1;
   _canvasMinZoom = 0.1;
   _canvasZoomStep = 0.1;
-  _canvasPinchZoomStep = 0.02;
   _canvasPoint: Point = new Point();
-  _canvasPanStart: Point = new Point();
-  _canvasImage: HTMLImageElement = new Image();
   _image: HTMLImageElement = new Image();
-  _draw = false;
   _sx = 0;
   _sy = 0;
 

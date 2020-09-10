@@ -1,0 +1,27 @@
+/* canvas {
+  border-style: solid;
+} */
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.add-btn {
+  padding: 13px 20px 12px;
+  background-color: #00223b;
+  background-image: linear-gradient(to bottom right, #d0d0ce, #6484aa);
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #00223b;
+  margin-bottom: 24px;
+}
+.add-btn:hover {
+  border: 1px solid #00223b;
+  background-color: transparent;
+  background-image: linear-gradient(to bottom right, #6484aa, #d0d0ce);
+  color: #00223b;
+}

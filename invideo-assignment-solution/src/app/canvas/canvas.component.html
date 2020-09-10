@@ -1,0 +1,25 @@
+<div class="center">
+    <canvas #canvas width="1000" height="600">
+    </canvas>
+</div>
+<div class="center" style="display: flex; align-items: flex-end;">
+    <button class="btn btn-block add-btn mb-4" (click)="zoomImage(1)"
+        style="margin-right: auto; margin-left: auto;">
+        Zoom in
+    </button>
+    <button class="btn btn-block add-btn mb-4" (click)="zoomImage(-1)"
+        style="margin-right: auto; margin-left: auto;">
+        Zoom Out
+    </button>
+    <!-- <button class="btn btn-block add-btn mb-4"
+        style="margin-right: auto; margin-left: auto;">
+        Crop
+    </button> -->
+    <button class="btn btn-block add-btn mb-4" (click)="resetImage()"
+        style="margin-right: auto; margin-left: auto;">
+        Reset
+    </button>
+</div>
+<div>
+    
+</div>
